@@ -1,3 +1,4 @@
+// Detection: High risk sign-in attempts
 SigninLogs
 | where ResultType != 0
 | where RiskLevelDuringSignIn == "high"
