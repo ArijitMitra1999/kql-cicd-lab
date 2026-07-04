@@ -1,4 +1,5 @@
 // Detection: High risk sign-in attempts
+// Author: Arijit Mitra
 SigninLogs
 | where ResultType != 0
 | where RiskLevelDuringSignIn == "high"
